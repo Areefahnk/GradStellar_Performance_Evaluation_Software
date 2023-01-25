@@ -4,6 +4,6 @@ conn = sqlite3.connect('gradstellar_database.db')
 
 
 def update(id,name_new):
-    conn.execute("update performance set name='" +name_new+ "' where G_id='"+str(id)+"'")
+    conn.execute("")
     conn.commit()
     print("Successully updated")
