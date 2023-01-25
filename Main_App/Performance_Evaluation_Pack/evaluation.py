@@ -13,8 +13,10 @@ def calc_grade(report,score):
         report["grade"]='Very Good'
     elif score>=60:
         report["grade"] = 'Good'
+    elif score>30:
+        report["grade"] = 'Average'
     else:
-        report["grade"]='Average'
+        report["grade"]='Poor'
 
 def get_excellence_certificate(report,grade):
     if grade == 'Excellent':
