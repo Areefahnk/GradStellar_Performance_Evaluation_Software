@@ -29,6 +29,7 @@ def get_excellence_records():
 
 
 def get_data():
+    print("Inside get data")
     report={}
     print("Welcome to the Student Performance Evaluation Software.")
     print("Enter the below registration details")

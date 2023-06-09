@@ -9,6 +9,7 @@ import sqlite3
 
 
 while True:
+    print("----------MENU-------------")
     print("""1.Enter Report & Store
 2.See All stored Data
 3.Search for a record with G_id
@@ -28,6 +29,8 @@ while True:
         id=input("Enter the Report G_id to update:")
         new_name=input("Enter the new name:")
         print(u.update(id,new_name))
+
+
     elif ch==5:
         e.get_excellence_records()
 
